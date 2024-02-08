@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "L4LsblhTcmSqJUAjKMf5Z7mfUMfgvRrKJtuD7KgFYE0Ee0gPAw1Jaw9gCj33n6eWSiDqn8Mnzfa70qFIDAK6bA==",
+  "success": true,
+  "projectFilePath": "W:\\softwareArchitecture\\AutoMapper\\src\\CSO.AutoMapper\\CSO.AutoMapper.csproj",
+  "expectedPackageFiles": [
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\automapper\\13.0.0\\automapper.13.0.0.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "W:\\softwareArchitecture\\AutoMapper\\src\\installed_packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
