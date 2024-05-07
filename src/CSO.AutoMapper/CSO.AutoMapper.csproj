@@ -9,7 +9,7 @@
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo> 
     <Configuration></Configuration>
     <Company>Central Statistics Office, Ireland</Company>
-    <PackageId>CSO.AutoMapper.BETA</PackageId>
+    <PackageId>CSO.AutoMapper</PackageId>
     <Product>CSO Automapper</Product>
     <Copyright>Central Statistics Office, Ireland</Copyright>
     <Version>0.0.1</Version>
@@ -17,14 +17,14 @@
     <SignAssembly>False</SignAssembly>
     <RepositoryUrl>https://github.com/CSOIreland/CSOAutomapper</RepositoryUrl>
     <PackageReleaseNotes>
-      - [INFO] initial release of CSO standalone automapper library
+      - [ENHANCEMENT] Upgraded to 13.0.1 version of automapper
     </PackageReleaseNotes>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     <RestoreLockedMode>true</RestoreLockedMode>
  </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="AutoMapper" Version="13.0.0" />
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 

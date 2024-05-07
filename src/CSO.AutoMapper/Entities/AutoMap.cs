@@ -29,6 +29,9 @@ namespace CSO.AutoMapper
                 cfg.CreateMap<JValue, DateTime?>().ConvertUsing<StringToNullDateTimeConverter>();
                 cfg.CreateMap<JValue, Decimal>().ConvertUsing<StringToDecimalConverter>();
                 cfg.CreateMap<JValue, Decimal?>().ConvertUsing<StringToNullDecimalConverter>();
+                cfg.CreateMap<JValue, String?>().ConvertUsing<StringToNullConverter>();
+
+
             });
 
             var mapper = config.CreateMapper();
@@ -262,6 +265,14 @@ namespace CSO.AutoMapper
                     if (!DateTime.TryParseExact(s, formatesSplit, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out DateTime result)) throw new FormatException("Invalid input format");
                     return result;
                 }
+            }
+        }
+
+        public class StringToNullConverter : ITypeConverter<JValue, string?>
+        {
+            public string? Convert(JValue source, string? destination, ResolutionContext context)
+            {
+                return source.Value == null ? null : source.Value.ToString();
             }
         }
     }
